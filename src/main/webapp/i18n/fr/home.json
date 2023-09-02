@@ -1,0 +1,18 @@
+{
+  "home": {
+    "title": "Bienvenue sur BrainByte",
+    "subtitle": "Simplifiez la Gestion de la Formation Professionnelle",
+    "logged": {
+      "message": "Vous êtes connecté en tant que \"{{username}}\"."
+    },
+    "link": {
+      "homepage": "Page d'accueil de JHipster",
+      "stackoverflow": "JHipster sur Stack Overflow",
+      "bugtracker": "JHipster bug tracker",
+      "chat": "JHipster public chat room",
+      "follow": "Suivez @jhipster sur Twitter"
+    },
+    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+    "github": "GitHub "
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sssssssssApp": {
+    "reclamation": {
+      "home": {
+        "title": "Reclamations",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Reclamation",
+        "createOrEditLabel": "Créer ou éditer un Reclamation",
+        "notFound": "Aucun Reclamation trouvé"
+      },
+      "created": "Un nouveau Reclamation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Reclamation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Reclamation avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Reclamation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Reclamation"
+      },
+      "id": "ID",
+      "createdIn": "Created In",
+      "user": "User"
+    }
+  }
+}

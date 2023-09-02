@@ -1,0 +1,25 @@
+{
+  "sssssssssApp": {
+    "reclamation": {
+      "home": {
+        "title": "Reclamations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Reclamation",
+        "createOrEditLabel": "Create or edit a Reclamation",
+        "notFound": "No Reclamations found"
+      },
+      "created": "A new Reclamation is created with identifier {{ param }}",
+      "updated": "A Reclamation is updated with identifier {{ param }}",
+      "deleted": "A Reclamation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Reclamation {{ id }}?"
+      },
+      "detail": {
+        "title": "Reclamation"
+      },
+      "id": "ID",
+      "createdIn": "Created In",
+      "user": "User"
+    }
+  }
+}

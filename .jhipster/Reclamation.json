@@ -1,0 +1,28 @@
+{
+  "changelogDate": "20230729174633",
+  "dto": "mapstruct",
+  "entityTableName": "reclamation",
+  "fields": [
+    {
+      "fieldName": "createdIn",
+      "fieldType": "Instant"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Reclamation",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "reclamation",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

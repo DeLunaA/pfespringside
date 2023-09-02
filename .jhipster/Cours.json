@@ -1,0 +1,20 @@
+{
+  "changelogDate": "20230828150826",
+  "entityTableName": "cours",
+  "fields": [
+    {
+      "fieldName": "sujet",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Cours",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

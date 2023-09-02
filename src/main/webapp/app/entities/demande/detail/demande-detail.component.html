@@ -1,0 +1,40 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="demande">
+      <h2 data-cy="demandeDetailsHeading"><span jhiTranslate="sssssssssApp.demande.detail.title">Demande</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ demande.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="sssssssssApp.demande.sujet">Sujet</span></dt>
+        <dd>
+          <span>{{ demande.sujet }}</span>
+        </dd>
+        <dt><span jhiTranslate="sssssssssApp.demande.description">Description</span></dt>
+        <dd>
+          <span>{{ demande.description }}</span>
+        </dd>
+        <dt><span jhiTranslate="sssssssssApp.demande.user">User</span></dt>
+        <dd>
+          <span>{{ demande.user?.login }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Retour</span>
+      </button>
+
+      <button type="button" [routerLink]="['/demande', demande.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Editer</span>
+      </button>
+    </div>
+  </div>
+</div>

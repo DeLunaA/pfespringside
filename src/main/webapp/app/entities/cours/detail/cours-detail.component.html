@@ -1,0 +1,36 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="cours">
+      <h2 data-cy="coursDetailsHeading"><span jhiTranslate="sssssssssApp.cours.detail.title">Cours</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ cours.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="sssssssssApp.cours.sujet">Sujet</span></dt>
+        <dd>
+          <span>{{ cours.sujet }}</span>
+        </dd>
+        <dt><span jhiTranslate="sssssssssApp.cours.description">Description</span></dt>
+        <dd>
+          <span>{{ cours.description }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Retour</span>
+      </button>
+
+      <button type="button" [routerLink]="['/cours', cours.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Editer</span>
+      </button>
+    </div>
+  </div>
+</div>
